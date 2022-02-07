@@ -1,0 +1,73 @@
+:root {
+  --background-page: #eaeaea;
+  --background-recipe: #ffffff;
+  --title: #1b1b1b;
+  --footer: #8f8f8f;
+  --others: #39393a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-page);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+main {
+  background-color: var(--background-recipe);
+  width: 60%;
+  margin: 40px auto;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  margin-top: 1rem;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 40px 0px 20px;
+  text-transform: uppercase;
+}
+
+li,
+p {
+  font-size: 1rem;
+  text-align: left;
+  color: var(--others);
+}
+
+li {
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+footer,
+figcaption {
+  font-size: 0.75rem;
+  color: var(--footer);
+}
+
+footer {
+  margin-bottom: 1.2rem;
+}
+
+figcaption {
+  text-align: right;
+}
